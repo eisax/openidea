@@ -5,7 +5,7 @@
   "type": "module",
   "description": "The Excalidraw plugin's web page; `pnpm build` writes it to ../web.",
   "scripts": {
-    "build": "tsc --noEmit && vite build",
+    "build": "node init && tsc --noEmit && vite build",
     "test": "vitest run"
   },
   "dependencies": {
